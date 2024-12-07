@@ -3,9 +3,9 @@
 import { useState } from 'react'
 import { useRouter } from 'next/navigation'
 import Layout from '../../components/layout'
-import { Input } from "@/components/ui/input"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
+import { Input } from "../../../components/ui/input"
+import { Button } from "../../../components/ui/button"
+import { Card, CardContent, CardHeader, CardTitle } from "../../../components/ui/card"
 
 export default function AdminLogin() {
   const [username, setUsername] = useState('')
